@@ -4,7 +4,10 @@
   "description": "Convert xml and json to each other based on browser.",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
-  "repository": "git://github.com/cosy247/xml2json2xml.js.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosy247/xml2json2xml.js.git"
+  },
   "keywords": [
     "xml",
     "json"

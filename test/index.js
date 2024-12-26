@@ -1,4 +1,4 @@
-import { json2xml, xml2json } from '../src/index.js';
+import { json2xml, xml2json } from '../dist/index.mjs';
 
 // xml2json();
 // json2xml();
