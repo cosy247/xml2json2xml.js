@@ -1,0 +1,21 @@
+{
+  "name": "xml2json2xml.js",
+  "version": "0.0.1",
+  "description": "Convert xml and json to each other based on browser.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "repository": "git://github.com/cosy247/xml2json2xml.js.git",
+  "keywords": [
+    "xml",
+    "json"
+  ],
+  "author": "cosy247",
+  "license": "ISC",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
